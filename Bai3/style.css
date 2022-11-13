@@ -1,0 +1,135 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
+    gap: 70px;
+    position: absolute;
+    width: 1213px;
+    height: 830px;
+    left: 193px;
+    top: 173px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header{
+    width: 1213px;
+    height: 100;
+    
+}
+
+.searchbox{
+    border: 1px solid rgb(70, 63, 63) ;
+    width: 25%;
+    height: 50px;
+    align-items: center;
+    line-height: 50px;
+    padding: 0 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.search-input{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.list ul{
+    display: flex;
+}
+
+.list ul li{
+    list-style: none;
+    margin-left: 7px;
+}
+
+.list ul li{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.list ul li:hover{
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+
+.container-card{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 1213px;
+height: 208px;
+flex-wrap: wrap;
+flex: none;
+order: 0;
+flex-grow: 0;
+justify-content: center
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    width: 327px;
+    height: 208px;
+    background: #FBFCFF;
+    border-radius: 16px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 200px;
+}
+
+.row-card_description{
+    display: flex;
+}
+
+.card .card-info .row-card_description {
+    display: flex;
+    gap : 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    padding: 0 10px ;
+}
+
+.card .card-info .row-card_description .card-info__favor{
+    border: 1px solid gainsboro;
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: #849fff;
+    font-family: 'Poppins';
+    font-style: normal;
+}
