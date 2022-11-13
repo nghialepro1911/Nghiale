@@ -78,17 +78,17 @@
 
 .container-card{
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-width: 1213px;
-height: 208px;
-flex-wrap: wrap;
-flex: none;
-order: 0;
-flex-grow: 0;
-justify-content: center
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1213px;
+    height: 208px;
+    flex-wrap: wrap;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    justify-content: center
 }
 
 .card{
